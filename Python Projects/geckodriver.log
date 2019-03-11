@@ -1,0 +1,22 @@
+1542754586310	geckodriver	INFO	geckodriver 0.20.1
+1542754586322	geckodriver	INFO	Listening on 127.0.0.1:59407
+1542754587333	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/l8/_m_42w2n1hv8n7qz2r5ywx_40000gp/T/rust_mozprofile.OV9h237KJAVZ"
+1542754587988	Marionette	DEBUG	Received observer notification profile-after-change
+1542754588089	Marionette	DEBUG	Received observer notification command-line-startup
+1542754588089	Marionette	DEBUG	Received observer notification nsPref:changed
+1542754588089	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1542754588305	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1542754589286	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1542754589286	Marionette	DEBUG	Waiting for delayed startup...
+1542754589371	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1542754589371	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1542754589372	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1542754589372	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1542754589373	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1542754589413	Marionette	INFO	Listening on port 59428
+1542754589413	Marionette	DEBUG	Remote service is active
+1542754589465	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:59481
+1542754589469	Marionette	TRACE	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1542754589470	Marionette	TRACE	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:178: ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
